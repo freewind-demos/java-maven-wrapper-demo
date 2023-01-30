@@ -14,5 +14,12 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
         </dependency>
+        <!-- ehcache requires old http repo which is blocked by 3.8.1 but still work in 3.6.3 -->
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.10.8</version>
+        </dependency>
     </dependencies>
+
 </project>
